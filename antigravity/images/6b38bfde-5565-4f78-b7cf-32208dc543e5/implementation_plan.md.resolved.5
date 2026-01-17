@@ -1,0 +1,56 @@
+# Implementation Plan - GRAVITYFREE Minimalist Redesign
+
+Transitioning the GRAVITYFREE website to a minimalist, high-end "Gallery" style based on the user's provided reference (White/Black, clean typography).
+
+## User Review Required
+
+> [!IMPORTANT]
+> **Aesthetic Shift**: Moving from Dark Mode to a **Minimalist Light Theme**. White backgrounds, thin elegant typography, and high-impact product imagery.
+
+> [!NOTE]
+> **Asset Generation**: We will generate high-resolution studio-style images for all core products to match the premium gallery look.
+
+## Proposed Changes
+
+### [Web Application]
+
+#### [MODIFY] [index.html](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/index.html)
+- Redesign Hero: Large centered product image with minimal text underneath.
+- Updated Section Flow: Product-first gallery layout with significant whitespace.
+- Updated Footer: 
+  - E-mail: gravityfree01@gmail.com
+  - Tel: 010-9061-2214
+  - Address: 경기도 파주시 탄현면 참매매길 160, 2층
+
+#### [MODIFY] [style.css](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/style.css)
+- Primary palette: White (#FFFFFF), Soft Grey (#F5F5F7), Black (#1D1D1F).
+- Typography: Inter or Roboto, focusing on extra-light and regular weights for an elegant look.
+- Layout: Grid-based with generous padding.
+
+### [Image Generation Plan]
+- `motion_v_hero`: 3D motion analysis sensor, sleek Apple-like product shot.
+- `gsg_product`: Garmin Doppler Radar device in a professional sports setting.
+- `gfit_product`: Modern pneumatic cable machine, high-tech fitness look.
+- `artisan_gear`: Close-up of custom baseball glove and uniform, highlighting craftsmanship.
+
+### [Brand Identity & Hero Refinement]
+
+#### [NEW] Dual Athlete Hero
+- Generate a new hero image featuring both a **Baseball Hitter** and a **Pitcher** side-by-side or in a composite.
+- Maintain the kinematic sequence analysis style (digital force lines, vectors).
+- High-key, minimalist white/grey aesthetic.
+
+#### [ALL PAGES]
+- Replace text logos with `<img src="uploaded_image_1766831780220.png">`.
+- Apply CSS sizing to ensure the logo is elegant in the header and footer.
+
+#### [MODIFY] [index.html](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/index.html)
+- Swap the old hitter hero with the new dual athlete composite.
+- Overlay the official logo for peak branding.
+
+## Verification Plan
+
+### Manual Verification
+1. Verify the dual athlete hero looks balanced and professional.
+2. Ensure the official logo replaces all text logo instances.
+3. Check mobile responsiveness for the new hero composition.

@@ -1,0 +1,36 @@
+# Walkthrough - GRAVITYFREE MVP Website
+
+We have successfully built the MVP (Minimum Viable Product) for GRAVITYFREE SPORTS, focusing on **Structure, Copy, and B2B Lead Generation**.
+
+## Key Achievements
+
+### 1. Main Landing Page ([index.html](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/index.html))
+- **Strategic Copywriting**: Used the "Data over Intuition" theme. Updated the Hero to highlight "10 years of craftsmanship" and "completion through data".
+- **Minimalist Motion V Section**: A high-end white/black section focusing on the device's visual impact and domestic technical superiority.
+- **Problem-Agitation-Solution (PAS) Flow**: Highlights the dangers of intuition-based training and offers data as the fix.
+
+### 2. Product Detail Pages (`products/`)
+- **[Motion V](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/products/motion-v.html)**: Focusing on ground reaction & kinematics.
+- **[GSG (Garmin Swing Gauge)](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/products/gsg.html)**: Highlighting Garmin's global reliability vs. domestic AS benefits.
+- **[G-Fit](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/products/g-fit.html)**: Focusing on kinetic chain and pneumatic resistance for athletes.
+
+### 3. B2B Optimized Contact Form ([contact.html](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/contact.html))
+- **Lead Generation Focus**: Fields designed for "Training Centers/Teams/Academies".
+- **Data Capture**: Includes company name, role, athlete scale, and interest level to qualify leads immediately.
+
+### 4. Visual Identity & Placeholders
+- **Premium Dark Mode**: Used Electric Blue and Neon Lime for a high-performance tech feel.
+- **Smart Placeholders**: Used structured CSS placeholders where images weren't provided, ensuring the layout remains professional for review.
+
+## Files Created/Modified
+- [index.html](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/index.html)
+- [style.css](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/style.css)
+- [contact.html](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/contact.html)
+- [motion-v.html](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/products/motion-v.html)
+- [gsg.html](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/products/gsg.html)
+- [g-fit.html](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/products/g-fit.html)
+
+## How to Verify
+1. Open [index.html](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/index.html) in your browser.
+2. Navigate to the "분석장비" details using the product cards.
+3. Test the "문의하기" button to view the B2B form.

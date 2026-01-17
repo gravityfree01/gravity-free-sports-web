@@ -1,0 +1,5 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary":  "Plan to build a sports analysis equipment website mirroring the design of hdqtr.kr. Includes tech stack (Vite+React+Tailwind), component structure, and verification steps.",
+  "updatedAt":  "2025-12-23T12:19:02.813819200Z"
+}

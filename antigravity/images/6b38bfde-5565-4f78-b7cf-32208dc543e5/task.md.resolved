@@ -1,0 +1,37 @@
+# Task: GRAVITYFREE Website Development
+
+- [x] **Phase 1: Structure & Copy (MVP Focus)**
+    - [x] Update implementation plan [implementation_plan.md](file:///C:/Users/gravi/.gemini/antigravity/brain/6b38bfde-5565-4f78-b7cf-32208dc543e5/implementation_plan.md)
+    - [x] Draft Copy for Landing Page (Hero, Problem, Flow, Products, Trust, CTA)
+    - [x] Refine Copy based on User Prompts (Hero, GSG, B2B Tone)
+    - [x] Create Minimalist Motion V Section
+    - [x] Design B2B Contact Form
+- [x] **Phase 2: Core Components & Layout**
+    - [x] Create [index.html](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/index.html) (Main Landing)
+    - [x] Create `products/` (Motion V, GSG, G-Fit)
+    - [x] Create [contact.html](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/contact.html) (B2B Lead Form)
+- [x] **Phase 3: Visuals & Placeholders**
+    - [x] Implement image placeholders and aesthetic layout
+    - [x] Add basic JS for form and navigation
+- [x] **Phase 4: Aesthetic Redesign (Minimalist Light)**
+    - [x] Update CSS to Light Premium theme (White/Grey/Black)
+    - [x] Generate high-quality assets using `generate_image` (Motion V, GSG, G-Fit, Artisan Gear)
+    - [x] Update [index.html](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/index.html) structure to match the reference (Gallery style)
+    - [x] Update footer with new contact info across all pages
+- [x] **Phase 5: Refinement & Verification**
+    - [x] Update product detail pages to match new theme
+    - [x] Update contact page to match new theme
+    - [x] Final walkthrough and responsiveness check
+- [x] **Phase 6: Interactive Video Integration**
+    - [x] Update [index.html](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/index.html) with YouTube hover triggers
+    - [x] Implement video modal or hover preview logic in [main.js](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/main.js)
+    - [x] Style video overlays in [style.css](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/style.css)
+- [x] **Phase 7: Brand Identity & Hero Refinement**
+    - [x] Generate Dual Athlete Hero (Hitter + Pitcher) with `generate_image`
+    - [x] Replace text logos with official brand image in header/footer
+    - [x] Overlay logo on the new dual athlete Hero
+    - [x] Update all sub-pages for logo consistency
+- [ ] **Phase 8: Data Visual Refinement (Scientific Hero)**
+    - [/] Generate Data-Rich Hero Image (Hitter Labels + Pitcher Labels)
+    - [ ] Reposition Hero Logo (Smaller, between athletes' heads)
+    - [ ] Final UI polish for premium responsiveness

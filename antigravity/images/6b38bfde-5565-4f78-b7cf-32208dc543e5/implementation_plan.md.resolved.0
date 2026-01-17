@@ -1,0 +1,47 @@
+# Implementation Plan - GRAVITYFREE Website
+
+Building a premium, data-driven B2B landing page for GRAVITYFREE SPORTS, showcasing sports analysis equipment and custom gear.
+
+## User Review Required
+
+> [!IMPORTANT]
+> The primary goal is **B2B Lead Generation**. The design will prioritize professional inquiry forms and technical product specs.
+
+> [!NOTE]
+> We will use a **Dark Mode / Premium Sports Performance** aesthetic, combining medical reliability with high-energy sports visuals.
+
+## Proposed Changes
+
+### [Web Application]
+
+#### [NEW] [index.html](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/index.html)
+- Hero section: "You Design, We Make Passion" + "Data-Proven Performance".
+- Company Intro: Focused on "Helping athletes achieve best performance".
+- Product Grid: 
+  - **Motion V**: 3D Ground Reaction Force.
+  - **GSG**: Garmin 3D Doppler Hitting Analysis.
+  - **G-Fit**: Pneumatic Kinetic Chain Training.
+  - **Custom Gear**: Gloves & Uniforms.
+- Features: Korean-developed A/S, reasonable pricing, proven by pro players.
+- Contact Form: B2B inquiry form for Training Centers/Academies.
+
+#### [NEW] [style.css](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/style.css)
+- CSS Variables for color palette: Deep Charcoal (#0B0B0B), Electric Blue (#00D4FF), Neon Lime (#CCFF00).
+- Animations: Intersection Observer for fade-in/slide-up effects.
+- Glassmorphism for product cards.
+
+#### [NEW] [app.js](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/app.js)
+- Smooth scrolling.
+- Simple form validation and success message simulation.
+- Scroll-based parallax or reveal animations.
+
+## Verification Plan
+
+### Automated Tests
+- Run `npm run dev` (if using a server) or simply open index.html.
+- Check accessibility and SEO tags.
+
+### Manual Verification
+- Verify lead form inputs.
+- Test responsive layout on simulated mobile/tablet screens.
+- Ensure all product descriptions and differentiators are accurately reflected.
