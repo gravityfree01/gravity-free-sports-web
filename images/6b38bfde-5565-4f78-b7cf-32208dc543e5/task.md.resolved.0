@@ -1,0 +1,17 @@
+# Task: GRAVITYFREE Website Development
+
+- [ ] **Phase 1: Planning & Design**
+    - [/] Create implementation plan `implementation_plan.md`
+    - [ ] Define color palette and typography (Premium Dark Mode)
+    - [ ] Design sections: Hero, Vision, Products (3 Analysis + Custom), B2B Lead Form
+- [ ] **Phase 2: Asset Generation**
+    - [ ] Generate Hero Background (High-performance sports movement)
+    - [ ] Generate Product Display Images (Motion V, GSG, G-Fit, Custom Items)
+- [ ] **Phase 3: Core Implementation**
+    - [ ] Create `index.html` with semantic structure
+    - [ ] Create `index.css` with layout, premium styling, and animations
+    - [ ] Create `main.js` for scroll effects and B2B form logic
+- [ ] **Phase 4: Refinement & Verification**
+    - [ ] Responsive design check (Mobile/Tablet)
+    - [ ] Performance and SEO optimization
+    - [ ] Final walkthrough and documentation

@@ -1,0 +1,47 @@
+# Walkthrough - GRAVITYFREE Minimalist Redesign
+
+We have successfully completed the redesign of the GRAVITYFREE website, transitioning to a **Minimalist Light Gallery** aesthetic inspired by your reference image.
+
+## Key Enhancements
+
+### 1. Minimalist Light Theme (`style.css`)
+- **Clean Aesthetic**: Pure white backgrounds, soft grey sectioning, and bold black typography.
+- **Gallery Layout**: Restructured the landing page into a clean grid that emphasizes high-impact product imagery and whitespace.
+
+### 2. High-Resolution & Branded Assets
+Integrated custom-generated, studio-quality images and official branding:
+- **Dual Athlete Hero**: A powerful composite of a **Baseball Hitter and Pitcher**, both featuring digital kinematic analysis overlays.
+- **Official Brand Identity**: All text-based logos have been replaced with your official **GRAVITYFREE logo**, applied elegantly to the header, footer, and as a premium overlay on the hero section.
+- **Product Gallery**: 
+    - **Motion V**: Sleek motion sensor product shot.
+    - **GSG**: Professional 3D Doppler Radar device.
+    - **G-Fit**: Modern pneumatic cable conditioning system.
+- **Custom Gear**: Macro shots of artisan gloves and premium uniforms.
+
+### 3. Interactive Video Gallery
+Added high-impact video engagement features to the product gallery:
+- **Hover Transitions**: Mousing over G-Fit, Motion V, or GSG cards smoothly transitions the studio product shot into a YouTube thumbnail preview.
+- **Embedded Player**: Clicking on a product opens a minimalist, non-intrusive YouTube modal for immediate video viewing without leaving the page.
+- **Visual Feedback**: Hover "Play" overlays provide clear visual cues for interactivity.
+
+### 4. Updated Brand Identity & Contact Info
+Updated the footer across all pages (`index`, `contact`, `products`) with the correct information:
+- **E-mail**: gravityfree01@gmail.com
+- **Tel**: 010-9061-2214
+- **Address**: 경기도 파주시 탄현면 참매매길 160, 2층
+
+### 4. Fully Responsive Design
+The new layout is optimized for both professional desktop viewing and on-field mobile accessibility for coaches.
+
+## Files Updated
+- [index.html](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/index.html)
+- [style.css](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/style.css)
+- [contact.html](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/contact.html)
+- [motion-v.html](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/products/motion-v.html)
+- [gsg.html](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/products/gsg.html)
+- [g-fit.html](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/products/g-fit.html)
+
+## How to Verify
+1. Open [index.html](file:///c:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/index.html) to see the new gallery flow.
+2. Check the footer on any page for the updated contact details.
+3. Click through the products to view the integrated studio shots.

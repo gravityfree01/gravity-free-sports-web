@@ -1,0 +1,73 @@
+# Implementation Plan - Sports Analysis Equipment Website
+
+This plan outlines the creation of a high-end sports analysis equipment website, replicating the design aesthetic of `https://hdqtr.kr/` (Design Reference).
+
+## User Review Required
+
+> [!NOTE]
+> The design will be adapted for "Sports Analysis Equipment". I will replace the "Brand & Space Design" content with "High-Performance Sports Tech".
+
+## Proposed Changes
+
+I will create a new Vite + React project with Tailwind CSS.
+
+### Project Setup
+#### [NEW] [package.json](file:///C:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/package.json)
+- Initialize new Vite project.
+- Install `tailwindcss`, `postcss`, `autoprefixer`.
+- Install `framer-motion` for scroll animations (crucial for the "vibe" replication).
+- Install `lucide-react` for icons.
+
+### Styles & Design System
+#### [NEW] [tailwind.config.js](file:///C:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/tailwind.config.js)
+- Define custom colors:
+    - Primary Blue: `#0019B4`
+    - Backgrounds: `#FFFFFF`, `#F7F7F7`
+- Set font family (will use a clean sans-serif like `Inter` or `Pretendard` via Google Fonts/CDN).
+
+### Components
+
+#### [NEW] [src/components/Layout/Header.jsx](file:///C:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/src/components/Layout/Header.jsx)
+- Fixed transparent-to-white header.
+- Navigation links.
+- "Contact" CTA button (Blue).
+
+#### [NEW] [src/components/Home/Hero.jsx](file:///C:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/src/components/Home/Hero.jsx)
+- Large impactful text ("Data-Driven Victory").
+- Background video or high-quality hero image overlay.
+- Dual CTA buttons.
+
+#### [NEW] [src/components/Home/FeatureSection.jsx](file:///C:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/src/components/Home/FeatureSection.jsx)
+- Asymmetric layout (Image Left/Text Right or vice versa).
+- Scroll reveal animations.
+
+#### [NEW] [src/components/Home/ProductGrid.jsx](file:///C:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/src/components/Home/ProductGrid.jsx)
+- 4-column grid showcasing equipment (High-speed Cameras, Sensors, Wearables, Radar).
+- Hover effects on cards.
+
+#### [NEW] [src/components/Home/ServiceGrid.jsx](file:///C:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/src/components/Home/ServiceGrid.jsx)
+- 3-column text grid for services (Team Installation, Data Consulting, Rental).
+
+#### [NEW] [src/components/Layout/Footer.jsx](file:///C:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/src/components/Layout/Footer.jsx)
+- Clean, multi-column footer.
+- **Specific Content:**
+    - Address: "경기도 파주시 참매미길 160, 2층 그래비티프리스포츠"
+    - Contact: "gfkor@daum.net"
+
+### Main Entry
+#### [NEW] [src/App.jsx](file:///C:/Users/gravi/catchbat01%20Dropbox/PARK%20SEONGSOO/PC/Desktop/antigravity/src/App.jsx)
+- Assemble components into the main landing page.
+
+## Verification Plan
+
+### Automated Tests
+- `npm run build` to ensure no build errors.
+
+### Manual Verification
+- Start dev server `npm run dev`.
+- Using `browser_subagent`:
+    - Verify Header is sticky and links work.
+    - Check Hero section responsiveness.
+    - Confirm Scroll Animations trigger correctly.
+    - Verify Hover effects on Product Grid.
+    - Screenshot the result and compare with `hdqtr.kr` style.
